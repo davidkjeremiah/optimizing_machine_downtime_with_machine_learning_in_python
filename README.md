@@ -30,7 +30,7 @@ This project aims to reduce machine downtime and maintenance cost by implementin
 * Calculate the reduction in maintenance costs based on the predictions.
 * Compare the results with the current maintenance costs to determine the potential savings.
 
-## Visualizationa and Reporting
+## Visualization and Reporting
 
 * Use visualization tools like matplotlib and seaborn to plot the data and model results.
 * Prepare a report summarizing the findings and recommendations for the management team.
