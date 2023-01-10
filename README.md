@@ -49,6 +49,12 @@ The maintenance data contain the following features:
 * Deploy the trained model as an API or integrate it into a production system, depending on the business requirement.
 * Continously monitoring the system performance and retrain the model as necessary with the new data.
 
+## Result
+
+For this project, the value of accuracy is a decimal between 0 and 1, with higher values indicating more accurate predictions. In this case, a value of 0.99 would indicate that the model's predictions were accurate 99% of the time, which can be confirmed from the plot between 'Actual Downtime (hours)' vs 'Predicted Downtime (hours)'. This would indicate that the model is performing well and thus can be trusted for `next month's predictions`.
+
+The value of `maintenance_cost_reduction` is 114479.30, which indicates that the model's predictions are resulting in a reduction in maintenance costs of approximately ₦114,479.30.
+
 ## Note
 
 * Please install all the necessary libraries before running the project.
