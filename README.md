@@ -4,6 +4,15 @@ Optimizing Machine Downtime with Machine Learning in Python
 
 This project aims to reduce machine downtime and maintenance cost by implementing a predictive maintenance program using machine learning algorithms. The maintenance data provided contains information such as machine ID, repair cost, repair time, previous repairs, and downtime, which will be used to train and evaluate the model.
 
+## Data
+The maintenance data contain the following features:
+
+* `machine_id:` A unique identifier for each machine.
+* `repair_time:` The time spent on the repair, in hours.
+* `repair_cost:` The cost of the repair, in naira.
+* `previous_repairs:` The number of previous repairs on the machine.
+* `downtime:` The number of hours that the machine was down due to a maintenance event (such as Replacing worn or damaged parts, Lubricating moving parts, Cleaning and inspecting the machine, Adjusting or calibrating the machine, Upgrading or installing new software or hardware, Testing and verifying the machine's performance, Conducting routine maintenance or preventative maintenance, Repairing or fixing problems or issues with the machine, Performing safety inspections etc.)
+
 ## Project Requirements
 
 * Python 3.x
